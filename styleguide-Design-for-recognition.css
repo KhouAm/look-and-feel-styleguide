@@ -1,20 +1,59 @@
-/* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
-   https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
-   https://css-tricks.com/css-cascade-layers/ */
 
 @layer styleguide {
-
-    /* Schrijf hier de verschillende stijlen, die
-       gedeeld gaan worden door jullie projecten */
-
-    /* Kleuren */
-    .color-example {
-        background-color: #bada55;
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
     }
 
+    :root{
+
+    /* Kleuren */
+        --color-primary: #0D3951;
+        --color-secondary: #EBDAC4;
+        --color-highlight: #8BCBBD;
+        --color-text-primary: #FFFFFF;
+        --color-text-secondary: #000000;
+
     /* Typografie */
+        --font-family-heading: Geomanist, Helvetica Neue, Helvetica, sans-serif;
+        --font-family-p: Merriweather, Times, Times New Roman, Serif;
+        --font-family-p-detailpage: Geomanist, ...;
+        
+        --font-size-h1: 4.5rem;
+        --font-size-h2: 1.5rem;
+        --font-size-h3: 1rem;
+        --font-size-p-s: 1rem;
+        --font-size-p-m: 1.3rem;
+        --font-size-p-l: 1.5rem;
+        --font-size-p-xl: 2rem;
+        
+        --font-weight-light: 400;
+        --font-weight-normal: 500;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 900;
+    }
 
-
-    /* Formulier elementen */
-
+    button{
+        background-color: var(--primary-colour);
+        border: 2px solid var(--primary-colour);
+        border-radius: 0;
+        box-shadow: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+        height: 48px;
+        line-height: 1;
+        padding: 0 .8em;
+        align: left;
+        text-decoration: none;
+        vertical-align: middle;
+        transition: background-color .3s ease,border-color .3s ease;
+    
+    &:hover{
+        background-color: var(----color-tertiair);
+        border-color: var(--color-tertiair);
+        outline: none;
+        }
+    }
 }
