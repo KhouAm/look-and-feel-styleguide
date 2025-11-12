@@ -1,4 +1,7 @@
-
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 @layer styleguide {
     * {
         box-sizing: border-box;
@@ -15,9 +18,9 @@
         --color-text-secondary: #000000;
 
     /* Typografie */
-        --font-family-heading: Geomanist, Helvetica Neue, Helvetica, sans-serif;
-        --font-family-p: Merriweather, Times, Times New Roman, Serif;
-        --font-family-p-detailpage: Geomanist, ...;
+        --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
+        --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
+        --font-family-p-detailpage: 'Geomanist', ...;
         
         --font-size-h1: 4.5rem;
         --font-size-h2: 1.5rem;
