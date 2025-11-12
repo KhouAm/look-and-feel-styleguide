@@ -60,3 +60,17 @@
         }
     }
 }
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('./fonts/geomanist-bold.woff') format('woff');
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('./fonts/Merriweather_24pt-Regular.ttf') format('TrueType');
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+}
+}
