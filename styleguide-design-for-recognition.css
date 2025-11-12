@@ -73,4 +73,25 @@
     font-style: normal;
     font-weight: var(--font-weight-light);
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-heading);
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-semibold);
+    line-height:1;
+    margin:0 0 .6em;
+}
+
+p {
+    font-family: var(--font-family-p);
+    color:var(--color-text-secondary);
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+    line-height: 1.6;
 }
