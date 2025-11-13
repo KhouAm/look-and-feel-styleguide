@@ -19,6 +19,7 @@
 
 .color1{
   background-color: var(--color-primary);
+  color: var(--color-text-primary);
 }
 .color2{
     background-color: var(--color-secondary);
@@ -32,7 +33,10 @@
 }
 .text-color-2{
     background-color: var(--color-text-secondary); 
+    color: var(--color-text-primary);
 }
+
+
     /* Typografie */
         --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
         --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
