@@ -43,7 +43,6 @@
       text-decoration: underline;
     }
   }
-
   figure:not([class]) {
     display: grid;
     grid-template-columns: 6rem 1fr;
