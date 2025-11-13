@@ -16,6 +16,27 @@
         --color-highlight: #8BCBBD;
         --color-text-primary: #FFFFFF;
         --color-text-secondary: #000000;
+    /* Typografie */
+        --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
+        --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
+        --font-family-p-detailpage: 'Geomanist', ...;
+            
+        --font-size-h1: 4.5rem;
+        --font-size-h2: 1.5rem;
+        --font-size-h3: 1rem;
+        --font-size-p-s: 1rem;
+        --font-size-p-m: 1.3rem;
+        --font-size-p-l: 1.5rem;
+        --font-size-p-xl: 2rem;
+            
+        --font-weight-light: 400;
+        --font-weight-normal: 500;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 900;
+
+    /* button */
+        --btn-padding: 0 .8rem;
+    }
 
     .color1{
         background-color: var(--color-primary);
@@ -33,172 +54,152 @@
     .text-color-2{
         background-color: var(--color-text-secondary); 
     }
-        /* Typografie */
-            --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
-            --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
-            --font-family-p-detailpage: 'Geomanist', ...;
-            
-            --font-size-h1: 4.5rem;
-            --font-size-h2: 1.5rem;
-            --font-size-h3: 1rem;
-            --font-size-p-s: 1rem;
-            --font-size-p-m: 1.3rem;
-            --font-size-p-l: 1.5rem;
-            --font-size-p-xl: 2rem;
-            
-            --font-weight-light: 400;
-            --font-weight-normal: 500;
-            --font-weight-semibold: 600;
-            --font-weight-bold: 900;
 
-        /* button */
-            --btn-padding: 0 .8rem;
+    @font-face {
+        font-family: 'Geomanist';
+        src: url('./fonts/geomanist-bold.woff') format('woff');
+        font-style: normal;
+        font-weight: var(--font-weight-semibold);
     }
-}
 
-@font-face {
-    font-family: 'Geomanist';
-    src: url('./fonts/geomanist-bold.woff') format('woff');
-    font-style: normal;
-    font-weight: var(--font-weight-semibold);
-}
+    @font-face {
+        font-family: 'Merriweather';
+        src: url('./fonts/Merriweather_24pt-Regular.ttf') format('TrueType');
+        font-style: normal;
+        font-weight: var(--font-weight-light);
+    }
 
-@font-face {
-    font-family: 'Merriweather';
-    src: url('./fonts/Merriweather_24pt-Regular.ttf') format('TrueType');
-    font-style: normal;
-    font-weight: var(--font-weight-light);
-}
+    /*Heading elements*/
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-family-heading);
+        color: var(--color-primary);
+        font-weight: var(--font-weight-semibold);
+        
+        margin:0 0 .6em;
+    }
 
-/*Heading elements*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-family-heading);
-    color: var(--color-primary);
-    font-weight: var(--font-weight-semibold);
-    
-    margin:0 0 .6em;
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-    line-height: 1;
-}
-h2 {
-    font-size: var(--font-size-h2);
-    line-height: 1.4;
-}
+    h1 {
+        font-size: var(--font-size-h1);
+        line-height: 1;
+    }
+    h2 {
+        font-size: var(--font-size-h2);
+        line-height: 1.4;
+    }
 
 
-/*Paragraph elements*/
-p {
-    font-family: var(--font-family-p);
-    font-weight: var(--font-weight-light);
-    font-size: var(--font-size-p-s);
-    color: var(--color-text-secondary);
-    font-style: normal;
-    letter-spacing: .03rem;
-}
-
-/*List elements*/
-ul {
-    font-family: var(--font-family-p);
-    font-style: normal;
-    font-weight: var(--font-weight-light);
-}
-ol{
+    /*Paragraph elements*/
+    p {
         font-family: var(--font-family-p);
-    font-style: normal;
-    font-weight: var(--font-weight-light);
-    line-height: 1.6;
-}
-
-
-/*Knoppen styling*/
-
-.btn{
-    background-color: var(--color-primary);
-    color: var(--color-text-primary);
-    text-shadow: 0 0 4px rgba(0,0,0,0.6);
-
-    font-family: var(--font-family-heading);
-    font-weight: var(--font-weight-normal);
-    font-size: var(--font-size-p-s);
-    text-decoration: none;
-    line-height: 1rem;
-
-    cursor: pointer;
-    padding: var(--btn-padding);
-    height: 48px;
-    
-    text-align: left;
-    vertical-align: middle;
-    transition: .5s ease-in-out;
-    
-    
-
-    &:hover{
-        background-color: var(--color-secondary);
-        border-color: var(--color-secondary);
-        color: var(--color-primary);
-        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-    }
-}
-
-.btn-primary{
-    background-color: var(--color-primary);
-    border: 2px solid var(--color-primary);
-    color: var(--color-text-primary);
-
-    &:hover{
-        background-color: var(--color-secondary);
-        border-color: var(--color-secondary);
-        color: var(--color-primary);
-        text-shadow: none;
-    }
-}
-
-.btn-secondary{
-    background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
-    border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
-    &:hover{
-        background-color: var(--color-secondary);
-        color: #3F2C4B; /*dit word dan ook een variabelen*/
-    }
-}
-
-.btn-tertiary{
-    background-color: var(--color-highlight);
-    color: var(--color-text-secondary);
-    border: 2px solid var(--color-highlight);
-    text-shadow: none;
-    &:hover{
-        background-color: var(--color-secondary);
+        font-weight: var(--font-weight-light);
+        font-size: var(--font-size-p-s);
         color: var(--color-text-secondary);
+        font-style: normal;
+        letter-spacing: .03rem;
+    }
+
+    /*List elements*/
+    ul {
+        font-family: var(--font-family-p);
+        font-style: normal;
+        font-weight: var(--font-weight-light);
+    }
+    ol{
+            font-family: var(--font-family-p);
+        font-style: normal;
+        font-weight: var(--font-weight-light);
+        line-height: 1.6;
+    }
+
+
+    /*Knoppen styling*/
+
+    .btn{
+        background-color: var(--color-primary);
+        color: var(--color-text-primary);
+        text-shadow: 0 0 4px rgba(0,0,0,0.6);
+
+        font-family: var(--font-family-heading);
+        font-weight: var(--font-weight-normal);
+        font-size: var(--font-size-p-s);
+        text-decoration: none;
+        line-height: 1rem;
+
+        cursor: pointer;
+        padding: var(--btn-padding);
+        height: 48px;
+        
+        text-align: left;
+        vertical-align: middle;
+        transition: .5s ease-in-out;
+        
+        
+
+        &:hover{
+            background-color: var(--color-secondary);
+            border-color: var(--color-secondary);
+            color: var(--color-primary);
+            text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    .btn-primary{
+        background-color: var(--color-primary);
+        border: 2px solid var(--color-primary);
+        color: var(--color-text-primary);
+
+        &:hover{
+            background-color: var(--color-secondary);
+            border-color: var(--color-secondary);
+            color: var(--color-primary);
+            text-shadow: none;
+        }
+    }
+
+    .btn-secondary{
+        background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
+        border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+        &:hover{
+            background-color: var(--color-secondary);
+            color: #3F2C4B; /*dit word dan ook een variabelen*/
+        }
+    }
+
+    .btn-tertiary{
+        background-color: var(--color-highlight);
+        color: var(--color-text-secondary);
+        border: 2px solid var(--color-highlight);
         text-shadow: none;
+        &:hover{
+            background-color: var(--color-secondary);
+            color: var(--color-text-secondary);
+            text-shadow: none;
+        }
+    }
+
+    .btn-icon{
+        border: 5px solid var(--color-text-primary);
+        border-radius: 50%;
+        color: var(--color-text-secondary);
+        background-color: var(--color-text-primary);
+        aspect-ratio: 1/1;
+        
+        svg{
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            vertical-align: center;
+        }
+
+        &:hover{
+            background-color: var(--color-secondary);
+            border-color: var(--color-secondary);
+        }
     }
 }
 
-.btn-icon{
-    border: 5px solid var(--color-text-primary);
-    border-radius: 50%;
-    color: var(--color-text-secondary);
-    background-color: var(--color-text-primary);
-    aspect-ratio: 1/1;
-    
-    svg{
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        vertical-align: center;
-    }
-
-    &:hover{
-        background-color: var(--color-secondary);
-        border-color: var(--color-secondary);
-    }
-}
