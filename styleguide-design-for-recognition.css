@@ -3,20 +3,30 @@
     scroll-behavior: smooth;
 }
 
-@layer styleguide {
-    * {
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
 
+@font-face {
+    font-family: 'Geomanist';
+    src: url('./fonts/geomanist-bold.woff') format('woff');
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('./fonts/Merriweather_24pt-Regular.ttf') format('TrueType');
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+}
+
+@layer styleguide {
     :root{
-    /* Kleuren */
+    /* Variabelen Kleuren */
         --color-primary: #0D3951;
         --color-secondary: #EBDAC4;
         --color-highlight: #8BCBBD;
         --color-text-primary: #FFFFFF;
         --color-text-secondary: #000000;
-    /* Typografie */
+    /* Variabelen Typografie */
         --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
         --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
         --font-family-p-detailpage: 'Geomanist', ...;
@@ -34,10 +44,11 @@
         --font-weight-semibold: 600;
         --font-weight-bold: 900;
 
-    /* button */
+    /* Variabelen button */
         --btn-padding: 0 .8rem;
     }
 
+    /*---- kleuren ----*/
     .color1{
         background-color: var(--color-primary);
     }
@@ -53,20 +64,6 @@
     }
     .text-color-2{
         background-color: var(--color-text-secondary); 
-    }
-
-    @font-face {
-        font-family: 'Geomanist';
-        src: url('./fonts/geomanist-bold.woff') format('woff');
-        font-style: normal;
-        font-weight: var(--font-weight-semibold);
-    }
-
-    @font-face {
-        font-family: 'Merriweather';
-        src: url('./fonts/Merriweather_24pt-Regular.ttf') format('TrueType');
-        font-style: normal;
-        font-weight: var(--font-weight-light);
     }
 
     /*Heading elements*/
@@ -117,7 +114,7 @@
     }
 
 
-    /*Knoppen styling*/
+    /*---- Knoppen styling ----*/
 
     .btn{
         background-color: var(--color-primary);
