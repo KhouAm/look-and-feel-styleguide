@@ -118,30 +118,17 @@
     /*---- Knoppen styling ----*/
 
     .btn{
-        background-color: var(--color-primary);
-        color: var(--color-text-primary);
-        text-shadow: 0 0 4px rgba(0,0,0,0.6);
-
         font-family: var(--font-family-heading);
         font-weight: var(--font-weight-normal);
         font-size: var(--font-size-p-s);
         text-decoration: none;
         line-height: 1rem;
-
         cursor: pointer;
         padding: var(--btn-padding);
         height: 48px;
-        
         text-align: left;
         vertical-align: middle;
         transition: .5s ease-in-out;  
-
-        &:hover{
-            background-color: var(--color-secondary);
-            border-color: var(--color-secondary);
-            color: var(--color-primary);
-            text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-        }
     }
 
     .btn-primary{
@@ -160,8 +147,10 @@
     .btn-secondary{
         background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
         border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+        color: var(--color-text-primary);
         &:hover{
             background-color: var(--color-secondary);
+            border-color: var(--color-secondary);
             color: #3F2C4B; /*dit word dan ook een variabelen*/
         }
     }
@@ -173,11 +162,63 @@
         text-shadow: none;
         &:hover{
             background-color: var(--color-secondary);
+            border-color: var(--color-secondary);
             color: var(--color-text-secondary);
             text-shadow: none;
         }
     }
 
+    /*dit zijn alternative stijlen voor de knoppen vrijdag ochtend even samen keizen!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    .btn-option-1{
+        background-color: var(--color-secondary);
+        color: var(--color-primary);
+        &:hover{
+            background-color: var(--color-primary);
+            border: 2px solid var(--color-primary);
+            color: var(--color-text-primary);
+        }
+    }
+    .btn-option-2{
+        background-color: var(--color-highlight);
+        border:2px solid var(--color-text-secondary);
+        &:hover{
+            background-color: var(--color-secondary);
+        }
+    }
+
+    .btn-option-3{
+        background-color: var(--color-secondary);
+        border-color: #3F2C4B;/*dit word dan ook een variabelen*/
+        color: #3F2C4B;/*dit word dan ook een variabelen*/
+        &:hover{
+            background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
+            border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+            color: var(--color-text-primary);
+        }
+    }
+
+    .btn-option-4{
+        background-color: var(--color-primary);
+        border: 2px solid var(--color-primary);
+        color: var(--color-text-primary);
+        &:hover{
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
+        }
+    }
+
+    .btn-option-5{
+        background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
+        border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+        color: var(--color-text-primary);
+        &:hover{
+            background-color: var(--color-secondary);
+            border-color: #3F2C4B;/*dit word dan ook een variabelen*/
+            color: #3F2C4B;/*dit word dan ook een variabelen*/
+        }
+    }
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    
     .btn-icon{
         border: 5px solid var(--color-text-primary);
         border-radius: 50%;
