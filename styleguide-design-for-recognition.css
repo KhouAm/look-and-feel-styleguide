@@ -113,3 +113,27 @@ ol{
     font-weight: var(--font-weight-light);
     line-height: 1.6;
 }
+
+/*knop elements*/
+
+.btn-primary{
+    background-color: var(--color-highlight);
+    border: 2px solid var(--color-highlight);
+    color: var(--color-text-primary);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 48px;
+    line-height: 1;
+    padding: 0 .8em;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: background-color .3s ease,border-color .3s ease;
+
+    &:hover{
+        background-color: var(--color-secondary);
+        border-color: var(--color-secondary);
+        outline: none;
+    }
+}
