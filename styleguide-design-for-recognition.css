@@ -236,6 +236,7 @@
         &:hover{
             background-color: var(--color-secondary);
             border-color: var(--color-secondary);
+            cursor: pointer;
         }
     }
 
