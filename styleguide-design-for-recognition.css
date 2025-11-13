@@ -57,8 +57,9 @@
     font-family: 'Geomanist';
     src: url('./fonts/geomanist-bold.woff') format('woff');
     font-style: normal;
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-semibold);
 }
+
 @font-face {
     font-family: 'Merriweather';
     src: url('./fonts/Merriweather_24pt-Regular.ttf') format('TrueType');
@@ -66,7 +67,7 @@
     font-weight: var(--font-weight-light);
 }
 
-
+/*Heading elements*/
 h1,
 h2,
 h3,
@@ -74,18 +75,41 @@ h4,
 h5,
 h6 {
     font-family: var(--font-family-heading);
-    color: var(--color-text-secondary);
+    color: var(--color-primary);
     font-weight: var(--font-weight-semibold);
-    line-height:1;
+    
     margin:0 0 .6em;
 }
 
+h1 {
+    font-size: var(--font-size-h1);
+    line-height: 1;
+}
+h2 {
+    font-size: var(--font-size-h2);
+    line-height: 1.4;
+}
+
+
+/*Paragraph elements*/
 p {
     font-family: var(--font-family-p);
-    color:var(--color-text-secondary);
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size-p-s);
+    color: var(--color-text-secondary);
+    font-style: normal;
+    letter-spacing: .03rem;
+}
+
+/*List elements*/
+ul {
+    font-family: var(--font-family-p);
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+}
+ol{
+        font-family: var(--font-family-p);
     font-style: normal;
     font-weight: var(--font-weight-light);
     line-height: 1.6;
 }
-
-
