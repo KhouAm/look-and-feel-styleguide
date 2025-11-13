@@ -123,18 +123,23 @@ ol{
 .btn{
     background-color: var(--color-primary);
     color: var(--color-text-primary);
-    cursor: pointer;
-    padding: var(--btn-padding);
-    font-size: var(--font-size-p-s);
-    text-decoration: none;
-    height: 48px;
-    line-height: 1rem;
-    text-align: left;
-    vertical-align: middle;
-    transition: background-color .3s ease,border-color .3s ease;
     text-shadow: 0 0 4px rgba(0,0,0,0.6);
+
     font-family: var(--font-family-heading);
     font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-p-s);
+    text-decoration: none;
+    line-height: 1rem;
+
+    cursor: pointer;
+    padding: var(--btn-padding);
+    height: 48px;
+    
+    text-align: left;
+    vertical-align: middle;
+    transition: .5s ease-in-out;
+    
+    
 
     &:hover{
         background-color: var(--color-secondary);
@@ -181,5 +186,19 @@ ol{
 .btn-icon{
     border: 6px solid var(--color-text-primary);
     border-radius: 50%;
-    color: #fff;
+    color: var(--color-text-secondary);
+    background-color: var(--color-text-primary);
+    aspect-ratio: 1/1;
+    
+    svg{
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+    }
+
+    &:hover{
+        background-color: var(--color-secondary);
+        border-color: var(--color-secondary);
+    }
 }
