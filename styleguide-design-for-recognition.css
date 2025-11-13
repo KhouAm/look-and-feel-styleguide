@@ -112,3 +112,11 @@ ol{
     font-style: normal;
     font-weight: var(--font-weight-light);
 }
+
+/*Table elements*/
+table {
+    font-family: var(--font-family-p);
+}
+ th {
+    font-weight: var(--font-weight-bold);
+ }
