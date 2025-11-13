@@ -26,6 +26,7 @@
         --color-highlight: #8BCBBD;
         --color-text-primary: #FFFFFF;
         --color-text-secondary: #000000;
+        
     /* Variabelen Typografie */
         --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
         --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
@@ -133,9 +134,7 @@
         
         text-align: left;
         vertical-align: middle;
-        transition: .5s ease-in-out;
-        
-        
+        transition: .5s ease-in-out;  
 
         &:hover{
             background-color: var(--color-secondary);
