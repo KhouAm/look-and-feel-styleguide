@@ -26,6 +26,7 @@
         --color-highlight: #8BCBBD;
         --color-text-primary: #FFFFFF;
         --color-text-secondary: #000000;
+        --color-error: #DB3A1B;
         
     /* Variabelen Typografie */
         --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -108,19 +109,67 @@
         font-weight: var(--font-weight-light);
     }
     ol{
-            font-family: var(--font-family-p);
+        font-family: var(--font-family-p);
         font-style: normal;
         font-weight: var(--font-weight-light);
         line-height: 1.6;
     }
 
      /*---- Formulier styling Khouloud :) ♡----*/
+    /*algemene form styling en text styling in form*/
 
+    form{
+        background-color: var(--color-text-primary);
+        border: 2px solid var(--color-primary);
+        padding: 1rem;
+        color: var(--color-primary);
+        font-family: var(--font-family-p-detailpage);
+        label.text-label{
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+        }
+        legend.form-legend{
+            font-weight: var(--font-weight-bold);
+            font-size: var(--font-size-p-m);
+        }
+    }
 
+    /*Text form*/
+    input[type="text"]{
+        border-radius: 1px;
+        color: var(--color-primary);
+        background-color: var(--color-text-primary);
+        border: 2px solid var(--color-primary);
+        display: inline-block;
+        margin: 0 0 24px;
+        min-height: 36px;
+        min-width: 50px;
+        padding: 0 0.4em;
+        vertical-align: middle;
+        width: 100%;
+        box-sizing: border-box;
+        &:hover{
+            border-color: var(--color-secondary);
+            cursor: pointer;
+        }
+    }
 
-
-
-     
+    /*checkbox form*/
+    fieldset{
+        border: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        label.checkbox-label{
+            padding: 0.2rem;
+            font-size: var(--font-size-p-m);
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+    
     /*---- Knoppen styling ----*/
 
     .btn{
