@@ -5,6 +5,7 @@ We bespreken hierbij de huiskleuren, typografie, formulier en de knop elementen.
 De link naar onze styleguide: https://khouam.github.io/look-and-feel-styleguide/ 
 
 ## Kleuren
+We hebben drie primaire kleuren met een foutkleur en een highlightkleur. Onze highlightkleur word toegepast op achtergrondsecties, knoppen, iconen en andere visuele accenten. Daarnaast maken we gebruik van twee verschillende tekstkleuren. Voor het kleurenpalet hebben we aangesloten bij de kleuren uit de Human Values-website, zodat de huisstijl consistent blijft. 
 <img width="558" height="864" alt="image" src="https://github.com/user-attachments/assets/6edec42e-6820-4eab-a3a9-6779d090856d" />
 
 
