@@ -15,7 +15,7 @@
       <p>Dit is de styleguide voor het project Design for recognition. Hierin zijn een aantal huisstijl onderdelen gedefinieerd.</p>
       <p>Gebruik de volgende gedeelde stylesheet binnen je eigen project:
         <!-- Pas deze aan zodra deze repository live staat op GitHub Pages -->
-        <link rel="stylesheet" href="index.css">
+        <a href="https://khouam.github.io/look-and-feel-styleguide/">Design for recognition</a>
       </p>
     </header>
 
@@ -27,9 +27,8 @@
       <!-- En eventueel meer categorieën en componenten -->
     </nav>
 
-
+    <br> <!--gaat weg --> 
     <section id="kleur">
-
       <h2>Kleuren</h2>
       <p>Bij het onderdeel kleuren staat het kleurgebruik voor onze pagina's.</p>
 
@@ -40,6 +39,10 @@
       <figure>
         <code class="color2">#EBDAC4</code>
         <figcaption>Kleur 2</figcaption>
+      </figure>
+      <figure>
+        <code class="color3">#EBDAC4</code>
+        <figcaption>Kleur 3</figcaption>
       </figure>
       <figure>
         <code class="highlight">#8BCBBD</code>
@@ -77,19 +80,19 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <ul class="">
+      <ul>
         <li>Ongeordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ul>
 
-      <ol class="">
+      <ol>
         <li>Geordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ol>
 
-      <table class="">
+      <table>
         <thead>
           <tr>
             <th>Tabelkop</th>
@@ -132,7 +135,7 @@
         </tbody>
       </table>
 
-      <blockquote class="">
+      <blockquote>
         <p>Dit is een quote, met een specifieke styling. Standaard wordt deze ingesprongen door de browser. Maar waarschijnlijk zien quotes er bij jullie anders uit.</p>
       </blockquote>
 
@@ -147,93 +150,98 @@
       <form class="">
 
         <p>
-          <label class="">
+          <label class="text-label">
             Text: 
-            <input type="text" class="">
+            <input type="text" required class="">
           </label>
         </p>
-
-        <p>
-          <label class="">
-            Textarea: 
-            <textarea class=""></textarea>
-          </label>
-        </p>
-
-        <fieldset>
-          <legend class="">Radio options:</legend>
-
-          <label class="">
-            <input type="radio" name="radio-options" value="option 1" checked class="">
-            Option 1
-          </label>
-
-          <label class="">
-            <input type="radio" name="radio-options" value="option 2" class="">
-            Option 2
-          </label>
-
-          <label class="">
-            <input type="radio" name="radio-options" value="option 3" class="">
-            Option 3
-          </label>
-        </fieldset>
         
         <fieldset>
-          <legend class="">Checkbox</legend>
+          <legend class="form-legend">Checkbox</legend>
 
-          <label class="">
-            <input type="checkbox" name="checkbox-1" checked class="">
+          <label class="checkbox-label">
+            <input type="checkbox" name="checkbox-1" checked class="checkbox-input">
             Checkbox 1
           </label>
 
-          <label class="">
-            <input type="checkbox" name="checkbox-2" class="">
+          <label class="checkbox-label">
+            <input type="checkbox" name="checkbox-2" class="checkbox-input">
             Checkbox 2
           </label>
 
-          <label class="">
-            <input type="checkbox" name="chekcbox-3" class="">
+          <label class="checkbox-label">
+            <input type="checkbox" name="chekcbox-3" class="checkbox-input">
             Checkbox 3
           </label>
         </fieldset>
 
         <p>
-          <label class="">
-            Search: 
-            <input type="search" class="">
-          </label>
-        </p>
-        
-        <p>
-          <label class="">
-            Tel: 
-            <input type="tel" class="">
-          </label>
+          <input type="submit" value="Submit button" class="btn btn-secondary">
         </p>
 
         <p>
-          <label class="">
-            Range: 
-            <input type="range" class="">
-          </label>
-        </p>
-
-        <p>
-          <input type="submit" value="Submit button" class="">
-        </p>
-
-        <p>
-          <button type="button" class="">Button</button>
+          <button type="button" class="btn btn-primary">Button</button>
         </p>
       </form>
     
     </section>
 
-  <section id="knoppen">
+<!------------------------------------------------------ Knoppen in huisstijl ---------------------------------------------------------------------->
+    <section id="knoppen">
+      <h2>Knoppen</h2>
+      <p>Hier vind je de knoppen in de huisstijl.</p>
+      
+      <button class="btn btn-primary">Dit is de primaire knop</button>
+      <button class="btn btn-secondary">Dit is de sec knop</button>
+      <button class="btn btn-tertiary">Dit is de ter knop</button>
+      <br> <!--gaat weg --> 
+      <br> <!--gaat weg --> 
+      <button class="btn btn-option-1">Alternatief op hierboven</button>
+      <button class="btn btn-option-2">Alternatief op hierboven</button>
+      <button class="btn btn-option-3">Alternatief op hierboven</button>
+      <br> <!--gaat weg --> 
+      <br> <!--gaat weg -->
+      <button class="btn btn-option-4">Alternatief op hierboven</button>
+      <button class="btn btn-option-5">Alternatief op hierboven</button>
+      <br> <!--gaat weg --> 
+      <br> <!--gaat weg -->
 
-  </section>
+      <button class="btn-icon btn-menu-open"><!-- Menu Openen -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M4 6l16 0" /><path d="M4 12l16 0" />
+          <path d="M4 18l16 0" />
+        </svg>
+      </button>
+          
+      <button class="btn-icon btn-menu-close"><!-- Menu sluiten -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M18 6l-12 12" />
+          <path d="M6 6l12 12" />
+        </svg>
+      </button>
+
+      <button class="btn-icon btn-back"><!-- Navigeer terug -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M5 12l14 0" />
+          <path d="M5 12l6 6" />
+          <path d="M5 12l6 -6" />
+        </svg>
+      </button>
+
+      <!-- Linkje -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.<a class="text-link" href="">Dit is een linkje in een text</a>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
+    </section>
+
     <!-- En eventueel meer categorieën en componenten -->
-
   </body>
 </html>
