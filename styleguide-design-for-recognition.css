@@ -58,6 +58,9 @@
     .color2{
         background-color: var(--color-secondary);
     }
+    .color-3{
+        background-color: var(--color-tertiary);
+    }
     .highlight{
         background-color: var(--color-highlight);
     }
