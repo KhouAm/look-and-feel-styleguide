@@ -74,7 +74,9 @@
         background-color: var(--color-text-secondary); 
         color: var(--color-text-primary);
     }
-
+.color-error{
+    background-color: var(--color-error);
+}
     /*Heading elements*/
     h1,
     h2,
