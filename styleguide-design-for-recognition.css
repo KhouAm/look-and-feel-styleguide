@@ -54,12 +54,14 @@
     /*---- kleuren ----*/
     .color1{
         background-color: var(--color-primary);
+        color: var(--color-text-primary);
     }
     .color2{
         background-color: var(--color-secondary);
     }
     .color3{
         background-color: var(--color-tertiary);
+        color: var(--color-text-primary);
     }
     .highlight{
         background-color: var(--color-highlight);
@@ -70,6 +72,7 @@
     }
     .text-color-2{
         background-color: var(--color-text-secondary); 
+        color: var(--color-text-primary);
     }
 
     /*Heading elements*/
