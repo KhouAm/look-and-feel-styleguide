@@ -23,6 +23,7 @@
     /* Variabelen Kleuren */
         --color-primary: #0D3951;
         --color-secondary: #EBDAC4;
+        --color-tertiary:#3F2C4B;
         --color-highlight: #8BCBBD;
         --color-text-primary: #FFFFFF;
         --color-text-secondary: #000000;
@@ -200,13 +201,13 @@
     }
 
     .btn-secondary{
-        background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
-        border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+        background-color: var(--color-tertiary);
+        border: 2px solid var(--color-tertiary); 
         color: var(--color-text-primary);
         &:hover{
             background-color: var(--color-secondary);
             border-color: var(--color-secondary);
-            color: #3F2C4B; /*dit word dan ook een variabelen*/
+            color: var(--color-tertiary);
         }
     }
 
@@ -243,11 +244,11 @@
 
     .btn-option-3{
         background-color: var(--color-secondary);
-        border-color: #3F2C4B;/*dit word dan ook een variabelen*/
-        color: #3F2C4B;/*dit word dan ook een variabelen*/
+        border-color: var(--color-tertiary);
+        color: var(--color-tertiary);
         &:hover{
-            background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
-            border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+            background-color: var(--color-tertiary); 
+            border: 2px solid var(--color-tertiary); 
             color: var(--color-text-primary);
         }
     }
@@ -263,16 +264,15 @@
     }
 
     .btn-option-5{
-        background-color: #3F2C4B; /*dit is een optie kan altijd nog weg als we gebruiken nieuwe variabelen aanpassen*/
-        border: 2px solid #3F2C4B; /*dit word dan ook een variabelen*/
+        background-color: var(--color-tertiary);
+        border: 2px solid var(--color-tertiary);
         color: var(--color-text-primary);
         &:hover{
             background-color: var(--color-secondary);
-            border-color: #3F2C4B;/*dit word dan ook een variabelen*/
-            color: #3F2C4B;/*dit word dan ook een variabelen*/
+            border-color: var(--color-tertiary);
+            color: var(--color-tertiary);
         }
     }
-    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     
     .btn-icon{
         border: 5px solid var(--color-text-primary);
@@ -297,8 +297,8 @@
 
     .text-link{
         text-decoration: underline;
-        text-decoration-color: #3F2C4B;
-        color: #3F2C4B;
+        text-decoration-color: var(--color-tertiary);
+        color: var(--color-tertiary);
         font-style: italic;
         &:hover{
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
