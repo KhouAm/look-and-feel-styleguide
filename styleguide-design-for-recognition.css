@@ -47,6 +47,11 @@
         --font-weight-semibold: 600;
         --font-weight-bold: 900;
 
+        --line-hight-s: 1rem;
+        --line-hight-m: 1.4rem;
+        --line-hight-l: 1.6rem;
+        --line-hight-xl: 3.5rem;
+
     /* Variabelen button */
         --btn-padding: 0 .8rem;
     }
@@ -93,11 +98,11 @@
 
     h1 {
         font-size: var(--font-size-h1);
-        line-height: 1;
+        line-height: var(--line-hight-s);
     }
     h2 {
         font-size: var(--font-size-h2);
-        line-height: 1.4;
+        line-height: var(--line-hight-m);
     }
 
 
@@ -121,7 +126,7 @@
         font-family: var(--font-family-p);
         font-style: normal;
         font-weight: var(--font-weight-light);
-        line-height: 1.6;
+        line-height: var(--line-hight-l);
     }
 
      /*---- Formulier styling Khouloud :) ♡----*/
@@ -186,7 +191,7 @@
         font-weight: var(--font-weight-normal);
         font-size: var(--font-size-p-s);
         text-decoration: none;
-        line-height: 1rem;
+        line-height: var(--line-hight-s);
         cursor: pointer;
         padding: var(--btn-padding);
         height: 48px;
