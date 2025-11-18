@@ -24,11 +24,17 @@ Voor de Headings wordt gebruik gemaakt van de font Geomanist en voor de paragrap
 
 De huidige huisstijl had een knop, die hebben wij in onze stylesheet opgenomen en daarop meerdere alternatieven gemaakt door de huiskleuren op verschillende manieren te gebruiken, maar de stijl hetzelfde te houden. Alle knoppen hebben een aparte stijling voor de hover.
 De algemene buttonstyling staat in de "btn"-class, en daarnaast hebben we btn-primary, btn-secondary en btn-tertiary.
+
 <img width="673" height="206" alt="Screenshot 2025-11-18 at 15-19-51 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/609ddb77-a2c2-442a-87e8-5c033f19d96b" />
+
 Er zijn ook navigatiebuttons die gezamenlijke styling hebben gekregen in btn-icon, ook deze hebben een hover gekregen.
+
 <img width="172" height="59" alt="Screenshot 2025-11-18 at 15-25-28 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/69d075e5-295a-4410-9848-3c3a431098c3" />
+
 Naast de knoppen hebben we ook nog een link. De huidige huisstijl kwam niet door de toegankelijkheidstest met de linkjes, omdat het contrast te laag was. Daarom hebben we een nieuwe stijl gemaakt met een leuk hovereffect.
+
 <img width="640" height="168" alt="Screenshot 2025-11-18 at 15-27-24 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/d99d92b5-7a05-4198-ab0f-29d3881adc4b" />
+
 
 ## Licentie
 
