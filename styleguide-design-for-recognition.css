@@ -198,6 +198,9 @@
         text-align: left;
         vertical-align: middle;
         transition: .5s ease-in-out;  
+        &:focus{
+            box-shadow: 0 0 50px 15px var(--color-highlight);
+        }
     }
 
     .btn-primary{
