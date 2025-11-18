@@ -22,8 +22,9 @@ Voor de Headings wordt gebruik gemaakt van de font Geomanist en voor de paragrap
 
 ## Knop elementen
 
-
-Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
+De huidige huisstijl had een knop, die hebben wij in onze stylesheet opgenomen en daarop meerdere alternatieven gemaakt door de huiskleuren op verschillende manieren te gebruiken, maar de stijl hetzelfde te houden.
+Alle knoppen hebben een aparte stijling voor de hover.
+<img width="673" height="206" alt="Screenshot 2025-11-18 at 15-19-51 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/609ddb77-a2c2-442a-87e8-5c033f19d96b" />
 
 ## Licentie
 
