@@ -79,7 +79,7 @@
         background-color: var(--color-text-secondary); 
         color: var(--color-text-primary);
     }
-.color-error{
+    .color-error{
     background-color: var(--color-error);
 }
     /*Heading elements*/
@@ -129,7 +129,7 @@
         line-height: var(--line-hight-l);
     }
 
-     /*---- Formulier styling Khouloud :) ♡----*/
+     /*---- Formulier styling */
     /*algemene form styling en text styling in form*/
 
     form{
