@@ -168,6 +168,28 @@
         }
     }
 
+    input[type="email"]{
+        border-radius: 1px;
+        color: var(--color-primary);
+        background-color: var(--color-text-primary);
+        border: 2px solid var(--color-primary);
+        display: inline-block;
+        margin: 0 0 24px;
+        min-height: 36px;
+        min-width: 50px;
+        padding: 0 0.4em;
+        vertical-align: middle;
+        width: 100%;
+        box-sizing: border-box;
+        &:hover{
+            border-color: var(--color-secondary);
+            cursor: pointer;
+        }
+        &:user-invalid{
+            border: 2px solid var(--color-error);
+        }
+    }
+
     /*checkbox form*/
     fieldset{
         border: none;
