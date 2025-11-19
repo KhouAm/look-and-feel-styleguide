@@ -188,6 +188,9 @@
         &:user-invalid{
             border: 2px solid var(--color-error);
         }
+        &:valid{
+            border: 2px solid green;
+        }
     }
 
     /*checkbox form*/
