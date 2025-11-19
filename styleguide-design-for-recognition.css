@@ -98,11 +98,11 @@
 
     h1 {
         font-size: var(--font-size-h1);
-        line-height: var(--line-hight-s);
+        line-height: var(--line-hight-xl);
     }
     h2 {
         font-size: var(--font-size-h2);
-        line-height: var(--line-hight-m);
+        line-height: var(--line-hight-l);
     }
 
 
