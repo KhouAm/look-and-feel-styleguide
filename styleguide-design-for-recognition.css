@@ -351,5 +351,14 @@
         }
         /*hihihihi https://css-tricks.com/having-fun-with-link-hover-effects/*/
     }
+
+    .link{
+        font-family: var(--font-family-p-detailpage);
+        font-size: var(--font-size-p-l);
+        color: var(--color-text-primary);
+        &:hover{
+            font-style: italic;
+        }
+    }
 }
 
