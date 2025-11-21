@@ -19,6 +19,11 @@ Voor de Headings wordt gebruik gemaakt van de font Geomanist en voor de paragrap
 
 
 ## Formulier elementen
+formulieren laten simpel zien met verschillende invulvelden. Er is een tekstveld dat verplicht ingevuld moet worden, een e-mailveld met een placeholder, en een groep checkboxen waarvan de eerste al is aangevinkt. De checkboxen worden samen in een fieldset gezet met een titel zodat ze duidelijk bij elkaar horen. Als je in de formulieren werkt veranderen ze van kleur en als je er overheen hovert ook.
+
+<img width="951" height="602" alt="Scherm­afbeelding 2025-11-21 om 11 45 15" src="https://github.com/user-attachments/assets/7b143aea-a869-41e4-95b9-ecd900f8efc2" />
+
+
 
 ## Knop elementen
 
