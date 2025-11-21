@@ -180,7 +180,6 @@
             padding: 0 0.4em;
             vertical-align: middle;
             width: 100%;
-            box-sizing: border-box;
             &:hover{
                 border-color: var(--color-secondary);
                 cursor: pointer;
