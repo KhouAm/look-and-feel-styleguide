@@ -57,6 +57,7 @@
 
         /* Variabelen form */
         --form-hover-color: rgba(0, 0, 0, 0.05);
+        --form-transition: ease-out 0.15s;
 
         /* Variabelen button */
         --btn-padding: 0 .8rem;
@@ -170,6 +171,7 @@
         label {
             font-weight: var(--font-weight-bold);
             color: var(--color-primary);
+            transition: var(--form-transition);
             &.checkbox-label{
                 padding: 0.2rem;
                 font-size: var(--font-size-p-m);
@@ -191,6 +193,7 @@
             padding: 0 0.4em;
             vertical-align: middle;
             width: 100%;
+            transition: var(--form-transition);
             &:hover {
                 border-color: var(--color-secondary);
                 cursor: pointer;
@@ -198,6 +201,7 @@
         }
 
         input[type="email"] {
+            transition: var(--form-transition);
             &:hover{
                 border-color: var(--color-secondary);
                 cursor: pointer;
@@ -211,6 +215,7 @@
         }
 
         input[type="checkbox"] {
+            transition: var(--form-transition);
             &:checked {
                 accent-color: grey;
             }
