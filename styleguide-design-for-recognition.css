@@ -60,7 +60,7 @@
         --form-transition: ease-out 0.15s;
 
         /* Variabelen button */
-        --btn-padding: 0 .8rem;
+        --btn-padding: 0.625em;
     }
 
     /*---- kleuren ----*/
@@ -231,7 +231,6 @@
         line-height: var(--line-hight-s);
         cursor: pointer;
         padding: var(--btn-padding);
-        height: 48px;
         text-align: left;
         vertical-align: middle;
         transition: .5s ease-out;  
@@ -331,7 +330,7 @@
         border-radius: 50%;
         color: var(--color-text-secondary);
         background-color: var(--color-text-primary);
-        aspect-ratio: 1/1;
+        aspect-ratio: 1;
         
         svg {
             height: 30px;
