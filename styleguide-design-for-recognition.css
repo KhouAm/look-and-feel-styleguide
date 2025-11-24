@@ -342,7 +342,7 @@
         }
     }
 
-    .text-link {
+    p a {
         text-decoration: underline;
         text-decoration-color: var(--color-tertiary);
         color: var(--color-tertiary);
