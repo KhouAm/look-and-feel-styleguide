@@ -19,8 +19,8 @@
 }
 
 @layer styleguide {
-    :root{
-    /* Variabelen Kleuren */
+    :root {
+        /* Variabelen Kleuren */
         --color-primary: #0D3951;
         --color-secondary: #EBDAC4;
         --color-tertiary:#3F2C4B;
@@ -29,7 +29,7 @@
         --color-text-secondary: #000000;
         --color-error: #DB3A1B;
         
-    /* Variabelen Typografie */
+        /* Variabelen Typografie */
         --font-family-sans:'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
         --font-family-serif:'Merriweather', 'Times', 'Times New Roman', Serif;
 
@@ -55,7 +55,7 @@
         --line-hight-l: 1.6;
         --line-hight-xl: 3.5;
 
-    /* Variabelen button */
+        /* Variabelen button */
         --btn-padding: 0 .8rem;
     }
 
@@ -64,16 +64,20 @@
         background-color: var(--color-primary);
         color: var(--color-text-primary);
     }
+
     .color2{
         background-color: var(--color-secondary);
     }
+
     .color3{
         background-color: var(--color-tertiary);
         color: var(--color-text-primary);
     }
+
     .highlight{
         background-color: var(--color-highlight);
     }
+
     .text-color-1{
         background-color: var(--color-text-primary);
         border: 1px solid var(--color-text-secondary);
@@ -82,8 +86,9 @@
         background-color: var(--color-text-secondary); 
         color: var(--color-text-primary);
     }
+
     .color-error{
-    background-color: var(--color-error);
+        background-color: var(--color-error);
     }
 
     /*Heading elements*/
@@ -96,7 +101,7 @@
         font-family: var(--font-family-heading);
         color: var(--color-primary);
         font-weight: var(--font-weight-semibold);
-        
+            
         margin:0 0 .6em;
     }
 
@@ -108,7 +113,6 @@
         font-size: var(--font-size-h2);
         line-height: var(--line-hight-l);
     }
-
 
     /*Paragraph elements*/
     p {
@@ -133,10 +137,9 @@
         line-height: var(--line-hight-l);
     }
 
-     /*---- Formulier styling */
-    /*algemene form styling en text styling in form*/
+     /*---- Formulier styling ----*/
 
-    form{
+    form {
         display: flex;
         flex-direction: column;
 
@@ -146,7 +149,7 @@
         color: var(--color-primary);
         font-family: var(--font-family-p-detailpage);
 
-        fieldset{
+        fieldset {
             border: none;
             margin: 0;
             padding: 0;
@@ -154,12 +157,12 @@
             flex-direction: column;
         }
 
-        legend{
+        legend {
             font-weight: var(--font-weight-bold);
             font-size: var(--font-size-p-m);
         }
 
-        label{
+        label {
             font-weight: var(--font-weight-bold);
             color: var(--color-primary);
             &.checkbox-label{
@@ -171,7 +174,7 @@
             }
         }
 
-        input[type="text"],input[type="email"]{
+        input[type="text"],input[type="email"] {
             border-radius: 1px;
             color: var(--color-primary);
             background-color: var(--color-text-primary);
@@ -183,30 +186,30 @@
             padding: 0 0.4em;
             vertical-align: middle;
             width: 100%;
-            &:hover{
+            &:hover {
                 border-color: var(--color-secondary);
                 cursor: pointer;
             }
         }
 
-        input[type="email"]{
+        input[type="email"] {
             &:hover{
                 border-color: var(--color-secondary);
                 cursor: pointer;
             }
-            &:user-invalid{
+            &:user-invalid {
                 border: 2px solid var(--color-error);
             }
-            &:valid{
+            &:valid {
                 border: 2px solid green;
             }
         }
 
-        input[type="checkbox"]{
-            &:hover{
+        input[type="checkbox"] {
+            &:hover {
                 background-color: rgba(0, 0, 0, 0.05);
             }
-            &:checked{
+            &:checked {
                 accent-color: grey;
             }
         }
@@ -215,7 +218,7 @@
 
     /*---- Knoppen styling ----*/
 
-    .btn{
+    .btn {
         font-family: var(--font-family-heading);
         font-weight: var(--font-weight-normal);
         font-size: var(--font-size-p-s);
@@ -227,17 +230,17 @@
         text-align: left;
         vertical-align: middle;
         transition: .5s ease-out;  
-        &:focus{
+        &:focus {
             box-shadow: 0 0 50px 15px var(--color-highlight);
         }
     }
 
-    .btn-primary{
+    .btn-primary {
         background-color: var(--color-primary);
         border: 2px solid var(--color-primary);
         color: var(--color-text-primary);
 
-        &:hover{
+        &:hover {
             background-color: var(--color-secondary);
             border-color: var(--color-secondary);
             color: var(--color-primary);
@@ -245,23 +248,23 @@
         }
     }
 
-    .btn-secondary{
+    .btn-secondary {
         background-color: var(--color-tertiary);
         border: 2px solid var(--color-tertiary); 
         color: var(--color-text-primary);
-        &:hover{
+        &:hover {
             background-color: var(--color-secondary);
             border-color: var(--color-secondary);
             color: var(--color-tertiary);
         }
     }
 
-    .btn-tertiary{
+    .btn-tertiary {
         background-color: var(--color-highlight);
         color: var(--color-text-secondary);
         border: 2px solid var(--color-highlight);
         text-shadow: none;
-        &:hover{
+        &:hover {
             background-color: var(--color-secondary);
             border-color: var(--color-secondary);
             color: var(--color-text-secondary);
@@ -269,82 +272,82 @@
         }
     }
 
-    .btn-option-1{
+    .btn-option-1 {
         background-color: var(--color-secondary);
         color: var(--color-primary);
-        &:hover{
+        &:hover {
             background-color: var(--color-primary);
             border: 2px solid var(--color-primary);
             color: var(--color-text-primary);
         }
     }
-    .btn-option-2{
+    .btn-option-2 {
         background-color: var(--color-highlight);
         border:2px solid var(--color-text-secondary);
-        &:hover{
+        &:hover {
             background-color: var(--color-secondary);
         }
     }
 
-    .btn-option-3{
+    .btn-option-3 {
         background-color: var(--color-secondary);
         border-color: var(--color-tertiary);
         color: var(--color-tertiary);
-        &:hover{
+        &:hover {
             background-color: var(--color-tertiary); 
             border: 2px solid var(--color-tertiary); 
             color: var(--color-text-primary);
         }
     }
 
-    .btn-option-4{
+    .btn-option-4 {
         background-color: var(--color-primary);
         border: 2px solid var(--color-primary);
         color: var(--color-text-primary);
-        &:hover{
+        &:hover {
             background-color: var(--color-secondary);
             color: var(--color-primary);
         }
     }
 
-    .btn-option-5{
+    .btn-option-5 {
         background-color: var(--color-tertiary);
         border: 2px solid var(--color-tertiary);
         color: var(--color-text-primary);
-        &:hover{
+        &:hover {
             background-color: var(--color-secondary);
             border-color: var(--color-tertiary);
             color: var(--color-tertiary);
         }
     }
     
-    .btn-icon{
+    .btn-icon {
         border: 5px solid var(--color-text-primary);
         border-radius: 50%;
         color: var(--color-text-secondary);
         background-color: var(--color-text-primary);
         aspect-ratio: 1/1;
         
-        svg{
+        svg {
             height: 30px;
             display: flex;
             justify-content: center;
             vertical-align: center;
         }
-
-        &:hover{
+ 
+        &:hover {
             background-color: var(--color-secondary);
             border-color: var(--color-secondary);
             cursor: pointer;
         }
     }
 
-    .text-link{
+    .text-link {
         text-decoration: underline;
         text-decoration-color: var(--color-tertiary);
         color: var(--color-tertiary);
         font-style: italic;
-        &:hover{
+        &:hover {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
             background-position: bottom;
             background-repeat: repeat-x;
@@ -354,11 +357,11 @@
         /*hihihihi https://css-tricks.com/having-fun-with-link-hover-effects/*/
     }
 
-    .link{
+    .link {
         font-family: var(--font-family-p-detailpage);
         font-size: var(--font-size-p-l);
         color: var(--color-text-primary);
-        &:hover{
+        &:hover {
             font-style: italic;
         }
     }
