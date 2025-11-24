@@ -30,9 +30,12 @@
         --color-error: #DB3A1B;
         
     /* Variabelen Typografie */
-        --font-family-heading: 'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
-        --font-family-p: 'Merriweather', 'Times', 'Times New Roman', Serif;
-        --font-family-p-detailpage: 'Geomanist', ...;
+        --font-family-sans:'Geomanist', 'Helvetica Neue', 'Helvetica', sans-serif;
+        --font-family-serif:'Merriweather', 'Times', 'Times New Roman', Serif;
+
+        --font-family-heading: var(--font-family-sans);
+        --font-family-p: var(--font-family-serif);
+        --font-family-p-detailpage: var(--font-family-sans);
             
         --font-size-h1: 4.5rem;
         --font-size-h2: 1.5rem;
