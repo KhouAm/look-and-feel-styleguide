@@ -55,8 +55,13 @@
         --line-hight-l: 1.6;
         --line-hight-xl: 3.5;
 
+        /* Variabelen form */
+        --form-hover-color: rgba(0, 0, 0, 0.05);
+
         /* Variabelen button */
         --btn-padding: 0 .8rem;
+
+        
     }
 
     /*---- kleuren ----*/
@@ -169,7 +174,7 @@
                 padding: 0.2rem;
                 font-size: var(--font-size-p-m);
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.05);
+                    background-color: var(--form-hover-color);
                 }
             }
         }
@@ -206,9 +211,6 @@
         }
 
         input[type="checkbox"] {
-            &:hover {
-                background-color: rgba(0, 0, 0, 0.05);
-            }
             &:checked {
                 accent-color: grey;
             }
