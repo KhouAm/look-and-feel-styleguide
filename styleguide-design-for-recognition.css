@@ -36,15 +36,18 @@
         --font-family-heading: var(--font-family-sans);
         --font-family-p: var(--font-family-serif);
         --font-family-p-detailpage: var(--font-family-sans);
-            
+
         --font-size-h1: 4.5rem;
-        --font-size-h2: 1.5rem;
-        --font-size-h3: 1rem;
-        --font-size-p-s: 1rem;
-        --font-size-p-m: 1.3rem;
-        --font-size-p-l: 1.5rem;
-        --font-size-p-xl: 2rem;
+        --font-size-h2: 3rem;
+        --font-size-h3: 2rem;
+        --font-size-h4: 1.5rem;
+        --font-size-h5: 1.25rem;
             
+        --font-size-p-s: 1rem;
+        --font-size-p-m: 1.125rem;
+        --font-size-p-l: 1.25rem;
+        --font-size-p-xl: 1.5rem;
+        
         --font-weight-light: 400;
         --font-weight-normal: 500;
         --font-weight-semibold: 600;
