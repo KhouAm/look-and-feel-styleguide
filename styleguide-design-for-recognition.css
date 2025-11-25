@@ -182,7 +182,7 @@
         label {
             font-weight: var(--font-weight-bold);
             color: var(--color-primary);
-            transition: var(--form-transition);
+            transition: var(--transition-1);
             &.checkbox-label{
                 padding: 0.2rem;
                 font-size: var(--font-size-p-m);
