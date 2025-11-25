@@ -60,10 +60,15 @@
 
         /* Variabelen form */
         --form-hover-color: rgba(0, 0, 0, 0.05);
-        --form-transition: ease-out 0.15s;
+        
 
         /* Variabelen button */
         --btn-padding: 0.625em;
+
+        /* Variabelen transitions */
+        --transition-1: ease-out 0.15s;
+        --transition-2: ease .3s;
+
     }
 
     /*---- kleuren ----*/
