@@ -108,17 +108,23 @@
         font-family: var(--font-family-heading);
         color: var(--color-primary);
         font-weight: var(--font-weight-semibold);
-            
         margin:0 0 .6em;
     }
 
     h1 {
         font-size: var(--font-size-h1);
-        line-height: var(--line-hight-m);
     }
     h2 {
         font-size: var(--font-size-h2);
-        line-height: var(--line-hight-l);
+    }
+    h3{
+        font-size: var(--font-size-h3);
+    }
+    h4{
+        font-size: var(--font-size-h4);
+    }
+    h5{
+        font-size: var(--font-size-h5);
     }
 
     /*Paragraph elements*/
@@ -143,9 +149,8 @@
         font-weight: var(--font-weight-light);
         line-height: var(--line-hight-l);
     }
-
+    
      /*---- Formulier styling ----*/
-
     form {
         display: flex;
         flex-direction: column;
