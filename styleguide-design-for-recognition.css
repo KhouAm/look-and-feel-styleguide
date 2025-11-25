@@ -117,13 +117,13 @@
     h2 {
         font-size: var(--font-size-h2);
     }
-    h3{
+    h3 {
         font-size: var(--font-size-h3);
     }
-    h4{
+    h4 {
         font-size: var(--font-size-h4);
     }
-    h5{
+    h5 {
         font-size: var(--font-size-h5);
     }
 
@@ -149,7 +149,7 @@
         font-weight: var(--font-weight-light);
         line-height: var(--line-hight-l);
     }
-    
+
      /*---- Formulier styling ----*/
     form {
         display: flex;
