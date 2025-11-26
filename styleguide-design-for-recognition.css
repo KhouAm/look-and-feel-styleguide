@@ -213,6 +213,7 @@
 
         input[type="email"] {
             transition: var(--form-transition);
+            padding: 0.2em;
             &:hover{
                 border-color: var(--color-secondary);
                 cursor: pointer;
