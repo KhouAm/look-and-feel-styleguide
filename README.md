@@ -5,7 +5,9 @@ We bespreken hierbij de huiskleuren, typografie, formulier en de knop elementen.
 De link naar onze styleguide: https://khouam.github.io/look-and-feel-styleguide/ 
 
 ## Kleuren
-<img width="556" height="754" alt="image" src="https://github.com/user-attachments/assets/28e26dfe-6bde-4825-b3d0-ad055b3e6a75" />
+We hebben drie primaire kleuren met een foutkleur en een highlightkleur. Onze highlightkleur word toegepast op achtergrondsecties, knoppen, iconen en andere visuele accenten. Daarnaast maken we gebruik van twee verschillende tekstkleuren. Voor het kleurenpalet hebben we aangesloten bij de kleuren uit de Human Values-website, zodat de huisstijl consistent blijft. 
+<img width="558" height="864" alt="image" src="https://github.com/user-attachments/assets/6edec42e-6820-4eab-a3a9-6779d090856d" />
+
 
 
 ## Typografie
@@ -17,11 +19,27 @@ Voor de Headings wordt gebruik gemaakt van de font Geomanist en voor de paragrap
 
 
 ## Formulier elementen
+formulieren laten simpel zien met verschillende invulvelden. Er is een tekstveld dat verplicht ingevuld moet worden, een e-mailveld met een placeholder, en een groep checkboxen waarvan de eerste al is aangevinkt. De checkboxen worden samen in een fieldset gezet met een titel zodat ze duidelijk bij elkaar horen. Als je in de formulieren werkt veranderen ze van kleur en als je er overheen hovert ook.
+
+<img width="951" height="602" alt="Scherm­afbeelding 2025-11-21 om 11 45 15" src="https://github.com/user-attachments/assets/7b143aea-a869-41e4-95b9-ecd900f8efc2" />
+
+
 
 ## Knop elementen
 
+De huidige huisstijl had een knop, die hebben wij in onze stylesheet opgenomen en daarop meerdere alternatieven gemaakt door de huiskleuren op verschillende manieren te gebruiken, maar de stijl hetzelfde te houden. Alle knoppen hebben een aparte stijling voor de hover.
+De algemene buttonstyling staat in de "btn"-class, en daarnaast hebben we btn-primary, btn-secondary en btn-tertiary.
 
-Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
+<img width="673" height="206" alt="Screenshot 2025-11-18 at 15-19-51 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/609ddb77-a2c2-442a-87e8-5c033f19d96b" />
+
+Er zijn ook navigatiebuttons die gezamenlijke styling hebben gekregen in btn-icon, ook deze hebben een hover gekregen.
+
+<img width="172" height="59" alt="Screenshot 2025-11-18 at 15-25-28 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/69d075e5-295a-4410-9848-3c3a431098c3" />
+
+Naast de knoppen hebben we ook nog een link. De huidige huisstijl kwam niet door de toegankelijkheidstest met de linkjes, omdat het contrast te laag was. Daarom hebben we een nieuwe stijl gemaakt met een leuk hovereffect.
+
+<img width="640" height="168" alt="Screenshot 2025-11-18 at 15-27-24 Design for Recognition - Styleguide" src="https://github.com/user-attachments/assets/d99d92b5-7a05-4198-ab0f-29d3881adc4b" />
+
 
 ## Licentie
 
