@@ -158,7 +158,6 @@
         width: 100%;
         box-sizing: border-box;
         &:hover{
-            border-color: var(--color-secondary);
             cursor: pointer;
         }
     }
@@ -202,7 +201,6 @@
 
         &:hover{
             background-color: var(--color-secondary);
-            border-color: var(--color-secondary);
             color: var(--color-primary);
             text-shadow: none;
         }
@@ -214,7 +212,6 @@
         color: var(--color-text-primary);
         &:hover{
             background-color: var(--color-secondary);
-            border-color: var(--color-secondary);
             color: var(--color-tertiary);
         }
     }
@@ -226,7 +223,6 @@
         text-shadow: none;
         &:hover{
             background-color: var(--color-secondary);
-            border-color: var(--color-secondary);
             color: var(--color-text-secondary);
             text-shadow: none;
         }
@@ -298,7 +294,6 @@
 
         &:hover{
             background-color: var(--color-secondary);
-            border-color: var(--color-secondary);
             cursor: pointer;
         }
     }
